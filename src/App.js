@@ -1,8 +1,16 @@
 import React from "react";
+import Navbar from "./common/Navbar/Navbar";
+import {BrowserRouter} from 'react-router-dom';
+
 
 function App() {
   return (
-   <><h1>App.Js</h1></>
+    <>
+      <BrowserRouter>
+        <Navbar />
+      </BrowserRouter>
+
+    </>
   );
 }
 
