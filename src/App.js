@@ -1,16 +1,18 @@
 import React from "react";
-import Navbar from "./common/Navbar/Navbar";
-import {BrowserRouter} from 'react-router-dom';
-
+import Whyastro from "./WhyAstro/WhyAstro";
 
 function App() {
   return (
-    <>
+    <div className="AstroTech">
+    
       <BrowserRouter>
         <Navbar />
       </BrowserRouter>
 
-    </>
+     
+   <Whyastro/>
+   </div>
+   
   );
 }
 

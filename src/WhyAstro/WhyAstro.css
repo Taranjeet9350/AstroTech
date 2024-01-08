@@ -1,0 +1,50 @@
+.AstroTech{
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: justify;
+    background-color: #eee;
+    
+}
+
+.AstroTech p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: justify;
+    color: black;
+    
+}
+.HeadingAstrology{
+    text-align: center;
+}
+
+.AboveCard{
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+.Card{
+  
+  width: 200px; /* Set the width as needed */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px; /* Adjust as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+}
+
+.DivCard{
+    align-items: center;
+}
+
+.Test{
+    justify-content: center;
+    justify-content: left;
+    display: flex;
+    justify-content: center;
+}
