@@ -4,7 +4,7 @@ import Navbar from "./common/Navbar/Navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import LoginPage from "./pages/Login";
 import SignupPage from "./pages/Signup";
-import styles from "./index.css"
+
 
 function App() {
   return (
